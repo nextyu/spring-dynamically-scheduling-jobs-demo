@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-dynamically-scheduling-jobs-demo
+
+server:
+  port: 8888
