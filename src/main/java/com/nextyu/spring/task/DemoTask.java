@@ -11,10 +11,10 @@ public class DemoTask extends AbstractTask {
     @Autowired
     private DemoService demoService;
 
-    public DemoTask() {
+    protected DemoTask() {
     }
 
-    public DemoTask(String id, String cron, String name) {
+    protected DemoTask(String id, String cron, String name) {
         super(id, cron, name);
     }
 
